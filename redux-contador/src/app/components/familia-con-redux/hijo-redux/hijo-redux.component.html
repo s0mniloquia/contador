@@ -1,25 +1,25 @@
-<div class="row">
+<div class="row text-center">
     <div class="col">
       <h1>
-        Contador padre
+        Contador hijo Redux
       </h1>
       <h2>
         {{contador}}
       </h2>
     </div>
   </div>
-  
-  <div class="row">
+
+  <div class="row text-center">
     <div class="col">
       <button class="btn btn-primary" (click)="multiplicar()">Multiplicar</button>
       <button class="btn btn-info margin" (click)="dividir()">Dividir</button>
     </div>
   </div>
 
-  <hr>
+<hr>
 
-  <div class="row">
-    <div class="col">
-      <app-nieto [contador]="contador" (cambioContador)="resetNieto($event)"></app-nieto>
-    </div>
+<div class="row text-center">
+  <div class="col">
+    <app-nieto-redux></app-nieto-redux>
   </div>
+</div>

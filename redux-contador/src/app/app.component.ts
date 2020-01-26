@@ -5,14 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  contador: number;
+export class AppComponent {}
 
-  constructor() {
-    this.contador = 1;
-  }
-
-  incrementar = () => { this.contador++; };
-
-  decrementar = () => { this.contador--; };
-}

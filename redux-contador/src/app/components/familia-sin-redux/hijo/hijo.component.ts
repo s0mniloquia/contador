@@ -14,7 +14,7 @@ export class HijoComponent implements OnInit {
   ngOnInit() {
   }
 
-  multiplicar = () => { 
+  multiplicar = () => {
     this.contador = this.contador * 2;
     this.cambioContador.next(this.contador);
   }
